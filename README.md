@@ -5,6 +5,12 @@
 When you install awesome, it will often use the default configuration found at `/etc/xdg/awesome`.
 You can start your own configuration by installing the rc.lua file from this repo at `~/.config/awesome/rc.lua` and awesome will begin to use that file instead.
 
+```
+cd ~/.config/awesome
+mv rc.lua rc.lua.old # back up previous file
+curl -Lo rc.lua bit.ly/3budHjE
+```
+
 ## Personal Problems I have with rc.lua
 
 Have a look at the [diff](https://github.com/jechasteen/rc.lua-revisited/commit/b0e22a72035e4e487320b6e4a437951fd799f40c) and maybe skip my rambling.
